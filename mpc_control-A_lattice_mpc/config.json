@@ -1,0 +1,39 @@
+{
+  "vehicle": {
+    "m": 17600.0,
+    "Iz": 280000.0,
+    "a": 3.65,
+    "b": 3.65,
+    "width": 2.75,
+    "track": 2.75,
+    "kf": 300000.0,
+    "kr": 300000.0,
+    "U": 2.924720921547432,
+    "mu": 0.85,
+    "g": 9.81,
+    "U_min": 1.0,
+    "U_blend": 1.0,
+    "tire_model": "linear"
+  },
+  "control": {
+    "dt": 0.05,
+    "k_v": 1.0,
+    "tau_ctrl": 0.2,
+    "tau_low": 0.3,
+    "tau_beta": 0.4,
+    "yaw_damp": 220.0,
+    "yaw_sat_gain": 3.0,
+    "drive_bias_front": 0.5,
+    "drive_bias_rear": 0.5,
+    "delta_rate_frac": 0.8,
+    "delta_max": 0.698,
+    "U_switch": 5.0,
+    "phase_auto": true,
+    "mode": "2dof",
+    "track": {
+      "enabled": true,
+      "retention_sec": 30.0,
+      "max_points": 20000
+    }
+  }
+}
